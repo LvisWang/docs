@@ -12,29 +12,29 @@
 
 | **列名**            | **类型**  | **说明**                             |
 |----------------------------|-----------|---------------------------------------------|
-| id                         | 字符串    | 内部集合ID                      |
-| slug                       | 字符串    | 集合标题                             |
-| name                       | 字符串    | 集合名称                             |
-| description                | 字符串    | 集合说明                      |
-| token\_count               | 大数    | 集合中的代币ID           |
-| contract                   | 字符串    | 合约地址                            |
-| day1\_rank                 | 大数    | 前1日的排名                 |
-| day7\_rank                 | 大数    | 前7日的排名              |
-| day30\_rank                | 大数    | 前30日的排名             |
-| all\_time\_rank            | 大数    | 所有时间的排名                            |
-| day1\_volume               | 精确小数型   | 前1日的交易量            |
-| day7\_volume               | 精确小数型   | 前7日的交易量         |
-| day30\_volume              | 精确小数型   | 前30日的交易量        |
-| all\_time\_volume          | 精确小数型   | 所有时间的交易量                       |
-| day1\_volume\_change       | 双精度浮点型    | 前1日的交易量变化     |
-| day7\_volume\_change       | 双精度浮点型    | 前7日的交易量变化  |
-| day30\_volume\_change      | 双精度浮点型    | 前30日的交易量变化 |
-| floor\ask\_value           | 精确小数型   | 当前的出售底价 (本地货币)  |
-| day1\_floor\_sale\_value   | 精确小数型   | 前1日的出售底价        |
-| day7\_floor\_sale\_value   | 精确小数型   | 前7日的出售底价                 |
-| day30\_floor\_sale\_value  | 精确小数型   | 前30日的出售底价                |
-| day1\_floor\_sale\_change  | 双精度浮点型    | 前1日的出售底价变化   |
-| day7\_floor\_sale\_change  | 双精度浮点型    | 前7日的出售底价变化     |
-| day30\_floor\_sale\_change | 双精度浮点型    | 前30日的出售底价变化    |
-| created\_at                | 时间戳 | 创建集合的时间戳        |
-| updated\_at                | 时间戳 | 更新集合的时间戳        |                                                               |
+| id                         | string    | 内部集合ID                      |
+| slug                       | string    | 集合标题                             |
+| name                       | string    | 集合名称                             |
+| description                | string    | 集合说明                      |
+| token\_count               | bigint    | 集合中的代币ID           |
+| contract                   | string    | 合约地址                            |
+| day1\_rank                 | bigint    | 前1日的排名                 |
+| day7\_rank                 | bigint    | 前7日的排名              |
+| day30\_rank                | bigint    | 前30日的排名             |
+| all\_time\_rank            | bigint    | 所有时间的排名                            |
+| day1\_volume               | decimal   | 前1日的交易量            |
+| day7\_volume               | decimal   | 前7日的交易量         |
+| day30\_volume              | decimal   | 前30日的交易量        |
+| all\_time\_volume          | decimal   | 所有时间的交易量                       |
+| day1\_volume\_change       | double    | 前1日的交易量变化     |
+| day7\_volume\_change       | double    | 前7日的交易量变化  |
+| day30\_volume\_change      | double    | 前30日的交易量变化 |
+| floor\ask\_value           | decimal   | 当前的出售底价 (本地货币)  |
+| day1\_floor\_sale\_value   | decimal   | 前1日的出售底价        |
+| day7\_floor\_sale\_value   | decimal   | 前7日的出售底价                 |
+| day30\_floor\_sale\_value  | decimal   | 前30日的出售底价                |
+| day1\_floor\_sale\_change  | double    | 前1日的出售底价变化   |
+| day7\_floor\_sale\_change  | double    | 前7日的出售底价变化     |
+| day30\_floor\_sale\_change | double    | 前30日的出售底价变化    |
+| created\_at                | timestamp | 创建集合的时间戳        |
+| updated\_at                | timestamp | 更新集合的时间戳        |                                                               |
