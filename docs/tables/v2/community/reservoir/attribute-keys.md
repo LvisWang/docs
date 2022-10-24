@@ -10,10 +10,10 @@
 
 | **列名** | **类型**  | **说明**                          |
 |-----------------|-----------|------------------------------------------|
-| id              | 字符串    | 内部属性键ID                |
-| collection\_id  | 字符串    | 相关集合ID                 |
-| key             | 字符串    | 键名称                |
-| kind            | 字符串    | 值类型 (字符串, 数字, 日期, 范围) |
-| rank            | 字符串    | 排序顺序                               |
-| created\_at     | 时间戳 | 创建属性键的时间戳  |
-| updated\_at     | 时间戳 | 更新属性键的时间戳  |
+| id              | string    | 内部属性键ID                |
+| collection\_id  | string    | 相关集合ID                 |
+| key             | string    | 键名称                |
+| kind            | string    | 值类型 (字符串, 数字, 日期, 范围) |
+| rank            | string    | 排序顺序                               |
+| created\_at     | timestamp | 创建属性键的时间戳  |
+| updated\_at     | timestamp | 更新属性键的时间戳  |
