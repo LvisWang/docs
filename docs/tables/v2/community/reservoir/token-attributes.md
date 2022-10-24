@@ -10,12 +10,12 @@
 
 | **列名** | **类型**  | **说明**                           |
 |-----------------|-----------|-------------------------------------------|
-| id              | 大数    | 内部代币属性ID              |
-| contract        | 字符串    | 合约地址                          |
-| token\_id       | 字符串    | 集合中的代币ID         |
-| attribute\_id   | 大数    | 内部属性ID                   |
-| collection\_id  | 字符串    | 内部集合ID                   |
-| key             | 字符串    | 属性名称                            |
-| value           | 字符串    | 属性值                           |
-| created\_at     | 时间戳 | 创建代币属性的时间戳 |
-| updated\_at     | 时间戳 | 更新代币属性的时间戳 |                                                               |
+| id              | bigint    | 内部代币属性ID              |
+| contract        | string    | 合约地址                          |
+| token\_id       | string    | 集合中的代币ID         |
+| attribute\_id   | bigint    | 内部属性ID                   |
+| collection\_id  | string    | 内部集合ID                   |
+| key             | string    | 属性名称                            |
+| value           | string    | 属性值                           |
+| created\_at     | timestamp | 创建代币属性的时间戳 |
+| updated\_at     | timestamp | 更新代币属性的时间戳 |                                                               |
