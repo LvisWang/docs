@@ -1,6 +1,6 @@
 ---
 标题: Reservoir
-说明: Reservoir正在通过开源和链上NFT订单汇总来实现下一代NFT产品和流动资源。
+说明: Reservoir正在通过开源和聚合链上NFT订单，来实现下一代NFT产品和提高NFT流动性。
 ---
 
 # Reservoir
